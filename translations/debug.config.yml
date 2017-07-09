@@ -1,5 +1,15 @@
 description: '현재 설정을 보여줍니다.'
 arguments:
-    name: '설정명'
+    name: 설정명
 errors:
     not-exists: '"%s" 설정은 없습니다.'
+examples:
+    -
+        description: 'List all configuration object names.'
+        execution: 'drupal config:debug'
+    -
+        description: 'Display system site configurations values.'
+        execution: 'drupal config:debug system.site'
+    -
+        description: 'List all system configuration names.'
+        execution: 'drupal config:debug | grep system'
