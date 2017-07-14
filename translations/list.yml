@@ -8,9 +8,10 @@ options:
     format: '출력 형식 (txt, xml, json, md)'
 messages:
     usage: "<comment>시용법:</comment>\n"
-    usage_details: "명령 [옵션] [매개변수]\n\n"
+    usage-details: "  command [options] [arguments]\n\n"
     arguments: '<comment>매개변수:</comment>'
     options: '<comment>옵션:</comment>'
     help: '<comment>도움말:</comment>'
     comment: '<comment>"%s" 네임스페이스에 대해 사용할 수 있는 명령어:</comment>'
     available-commands: '<comment>사용할 수 있는 명령어:</comment>'
+    usage_details: "명령 [옵션] [매개변수]\n\n"
