@@ -5,6 +5,7 @@ messages:
     welcome: 'cache:rebuild 명령어에 오신 걸 환영합니다.'
     rebuild: '캐시를 재성성하고 있습니다. 잠시만 기다려 주세요.'
     completed: '캐시 삭제 완료.'
+    invalid-cache: 'Cache "%s" is invalid.'
     invalid_cache: '"%s" 캐시는 유효하지 않습니다.'
 questions:
     cache: '캐시를 선택하세요.'
