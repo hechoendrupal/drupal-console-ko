@@ -1,6 +1,8 @@
 description: '현재 설정을 보여줍니다.'
 arguments:
     name: 설정명
+options:
+    show-overridden: 'Show overridden configurations.'
 errors:
     not-exists: '"%s" 설정은 없습니다.'
 examples:
@@ -13,3 +15,6 @@ examples:
     -
         description: 'List all system configuration names.'
         execution: 'drupal config:debug | grep system'
+    -
+        description: 'List all configuration including overridden values.'
+        execution: 'drupal debug:config --show-overridden'
